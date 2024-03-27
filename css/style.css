@@ -1,0 +1,59 @@
+@import url('https://fonts.googleapis.com/css2?family=Lexend:wght@100..900&display=swap');
+
+.bsuperior{
+    display: flex;
+    justify-content: space-around;
+    background-color: orangered;
+    color: white;
+    padding: 18px;
+}
+
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    font-family: "Lexend", sans-serif;
+}
+
+.nav{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+.nav a{
+    color: black;
+}
+
+.nav img{
+    width: 130px;
+}
+
+.iconos {
+    width: 24px; /* Modificar tamaño */
+    height: 24px; /* Modificar tamaño */
+    fill: blue; /* Modificar color */
+
+}
+
+.rematando {
+    width: 100%;
+}
+
+.zapatos{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: baseline;
+    flex-wrap: wrap;
+    padding: 0px 230px;
+}
+
+.zapatos img {
+    width: 250px;
+}
+
+.fotos {
+    border: 3px solid black;
+}
